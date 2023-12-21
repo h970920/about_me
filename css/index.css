@@ -1,0 +1,92 @@
+body {
+  overflow: hidden;
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#wrap {
+  margin: 0;
+  padding: 0;
+  background-image: url(../img/main01.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  color: #fff;
+  font-family: "Arial", sans-serif;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: space-around;
+  z-index: 1000;
+}
+
+nav button {
+  background: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+nav button a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.5s ease-in-out;
+}
+a:link,
+a:visited {
+  color: white;
+}
+
+nav button:hover a {
+  color: #bb2649;
+}
+
+nav button:nth-child(2),
+nav button:nth-child(3),
+nav button:nth-child(4) {
+  margin-left: 50px;
+}
+
+h1 {
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 32px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+#quote {
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgba(255, 255, 255, 0.8);
+  width: 90%;
+}
+
+.quote__one {
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+}
+.quote__two {
+  color: white;
+  font-size: 14px;
+}
