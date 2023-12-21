@@ -1,3 +1,22 @@
+@media only screen and (max-width: 767px) {
+  /* 스마트폰 화면에 대한 스타일 */
+
+  body {
+    font-family: "Arial", sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  nav {
+    width: 100%;
+    padding: 0;
+    height: 70px;
+  }
+  nav button:nth-child(2),
+  nav button:nth-child(3),
+  nav button:nth-child(4) {
+    margin: 0;
+  }
+}
 body {
   overflow: hidden;
   font-family: "Arial", sans-serif;
